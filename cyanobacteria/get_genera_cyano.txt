@@ -1,0 +1,29 @@
+#!/bin/bash
+
+url=https://lpsn.dsmz.de/phylum/cyanobacteriota
+
+for clase in $(curl -s $url | grep '/class/' | cut -d '"' -f2 | sort | uniq | cut -d'/' -f3)
+ do
+ url=https://lpsn.dsmz.de/class/$clase
+ for orden in $(curl -s $url | grep '/order/' | cut -d '"' -f2 | sort | uniq | cut -d'/' -f3)
+  do
+  url=https://lpsn.dsmz.de/order/$orden
+  for genero in $(curl -s $url | grep '/family/' | cut -d '"' -f2 | sort | uniq | cut -d'/' -f3)
+   do
+   url=https://lpsn.dsmz.de/family/$genero
+   curl -s $url | grep '/genus/' | cut -d '"' -f2 | sort | uniq | cut -d'/' -f3
+   done
+  done
+ done > generos_ciano.txt
+
+sort generos_ciano.txt | uniq > generos_ciano_sin_rep.txt
+
+
+This scripts gathers all the cianobacteria genera form the LPSN database
+
+
+Input: an url, oin this case "url=https://lpsn.dsmz.de/phylum/cyanobacteriota"
+
+Processing:
+	Nested loops, the script crawls through all children taxa of cianobacteria.
+	When reaching a genus, it stores it in the output file (genera_cyano.txt)

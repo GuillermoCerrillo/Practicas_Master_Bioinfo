@@ -1,0 +1,5 @@
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_1;
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_2;
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_3;
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_4;
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_5;

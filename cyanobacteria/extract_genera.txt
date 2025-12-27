@@ -1,0 +1,10 @@
+This script reads a TSV file, pulls genus names from the second column (ignoring the header), normalizes them to the first space‑separated token, and prints a sorted unique list.​
+
+
+For each line of infile after the first (data lines only):
+	Extract the value from column 2.
+	From this value, take only the substring before the first space (the first word).
+	Collect all such extracted words.
+	Sort the list of words alphabetically.
+	Remove duplicate entries, keeping only unique genus names.
+	Save output to genera.txt.

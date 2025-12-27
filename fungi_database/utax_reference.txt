@@ -1,0 +1,2 @@
+>tax=d:Domain,k:Kingdom,p:Phylum,c:Class,o:Order,f:Family,g:Genus,s:Genus_scepies;
+ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT

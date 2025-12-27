@@ -1,0 +1,14 @@
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_1;
+CGATGCATCGATCGATCGATGCATCGATCGATCGATCGATCGATCG
+
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_2;
+GCTAGCTAGCATGCTAGCATGCATGCATCGATCGATGCAT
+
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_3;
+CGATCGATGCATGCCATGCTAGCTACGATGCATGCTCAGCTAGCTAGCTAGCTAG
+
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_4;
+AACGACGATCGATCGTAGTCTATCGATCGATCAGCATCAGTCACGATCGATCGATCGATCT
+
+>tax=d:Prokaryota,k:Bacteria,p:Phylum,c:Class,o:Order,f:Family,g:Genus_5;
+ACGTTTTAGCGACACGACGATCAGCCGGCGCATCGATCGTAATGCTACGTACGTA

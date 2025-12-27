@@ -1,0 +1,2 @@
+OTU	Samples	Size	Freq	DomOTU	DomSize	DomId	Min	LoQ	Med	HiQ	Max	Taxonomy
+ZotuN	800	1234567	0.033	-	-	-	1	123	1234	4321	12345	d:Domain,k:Kingdom,p:Phylum,c:Class,o:Order,f:Family,g:Genus,s:Genus_scepies

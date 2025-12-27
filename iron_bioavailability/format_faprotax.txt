@@ -1,0 +1,12 @@
+This script takes a genus and changes its format to that of faprotax
+
+Input: a string depicting a genus (i.e. Escherichia)
+
+Processing:
+	Set the url (setting the genus to lowercase)
+	(example: url=https://lpsn.dsmz.de/genus/escherichia)
+	Crawl the webpage to get the family it belongs to.
+	Echo the format: *Family*Genus* to the output file.
+	(example: *Enterobacteriaceae*Escherichia*)
+
+This porcessed is looped for all genera in the file.
